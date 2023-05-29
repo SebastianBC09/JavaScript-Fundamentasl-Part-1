@@ -32,7 +32,7 @@ let myCurrentJob = 'Software Engineer'
 let job1 = 'Librarian';
 let job2 = 'Software Engineer';
 
-*/
+
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
@@ -50,4 +50,15 @@ console.log(typeof year);
 
 year = 1999;
 console.log(typeof year);
+*/
 
+let age = 23; //✅
+age = 24; //✅
+
+const birthYear = 1999; //✅
+birthYear = 1998; //❌
+
+const job; //❌
+
+lastName = 'Ballen Castaneda'; //❌
+console.log(lastName)
