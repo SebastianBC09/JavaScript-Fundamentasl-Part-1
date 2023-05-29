@@ -1,3 +1,4 @@
+/* 
 let js = "Amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -30,3 +31,23 @@ let myCurrentJob = 'Software Engineer'
 // Not a very good practice
 let job1 = 'Librarian';
 let job2 = 'Software Engineer';
+
+*/
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+console.log(typeof 24);
+console.log(typeof 'Juan');
+
+javaScriptIsFun = 'YES!';
+console.log(typeof javaScriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1999;
+console.log(typeof year);
+
