@@ -64,7 +64,12 @@ console.log(typeof year);
 // console.log(lastName)
 
 // Minus operator
-const ageSebas = 2023 - 1999;
-const ageAyana = 2023 - 1998;
+const now = 2023;
+const ageSebas = now - 1999;
+const ageAyana = now - 1998;
 console.log(ageSebas, ageAyana)
+
+// Multiplication & divison operator
+console.log(ageSebas * 2, ageAyana / 2, 4 ** 2)
+// For JavaScript, the operator that represents the power of a number is **. So that means 4 to the power of 2  = 4 * 4
 
