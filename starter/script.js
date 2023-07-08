@@ -52,13 +52,19 @@ year = 1999;
 console.log(typeof year);
 */
 
-let age = 23; //✅
-age = 24; //✅
+// let age = 23; //✅
+// age = 24; //✅
 
-const birthYear = 1999; //✅
-birthYear = 1998; //❌
+// const birthYear = 1999; //✅
+// birthYear = 1998; //❌
 
-const job; //❌
+// const job; //❌
 
-lastName = 'Ballen Castaneda'; //❌
-console.log(lastName)
+// lastName = 'Ballen Castaneda'; //❌
+// console.log(lastName)
+
+// Minus operator
+const ageSebas = 2023 - 1999;
+const ageAyana = 2023 - 1998;
+console.log(ageSebas, ageAyana)
+
