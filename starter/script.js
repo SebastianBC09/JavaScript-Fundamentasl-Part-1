@@ -73,3 +73,7 @@ console.log(ageSebas, ageAyana)
 console.log(ageSebas * 2, ageAyana / 2, 4 ** 2)
 // For JavaScript, the operator that represents the power of a number is **. So that means 4 to the power of 2  = 4 * 4
 
+// Plus operator has another use, like in this case join or concatenate strings
+const firstName = 'Sebastian'
+const lastName = 'Ballen'
+console.log(firstName + ' ' + lastName)
