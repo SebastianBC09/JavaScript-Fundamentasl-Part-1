@@ -77,3 +77,12 @@ console.log(ageSebas * 2, ageAyana / 2, 4 ** 2)
 const firstName = 'Sebastian'
 const lastName = 'Ballen'
 console.log(firstName + ' ' + lastName)
+
+// Assignment Operators
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+x--;
+console.log(x)
