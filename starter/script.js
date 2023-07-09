@@ -86,3 +86,11 @@ x++;
 x--;
 x--;
 console.log(x)
+
+//Comparison Operators
+console.log(ageSebas > ageAyana) // >, <, >=, <=
+console.log(ageAyana >= ageSebas)
+
+const isFullAge = ageSebas >= 18;
+
+console.log(now - 1999 > now - 2018)
