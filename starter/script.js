@@ -50,18 +50,16 @@ console.log(typeof year);
 
 year = 1999;
 console.log(typeof year);
-*/
+let age = 23; //✅
+age = 24; //✅
 
-// let age = 23; //✅
-// age = 24; //✅
+const birthYear = 1999; //✅
+birthYear = 1998; //❌
 
-// const birthYear = 1999; //✅
-// birthYear = 1998; //❌
+const job; //❌
 
-// const job; //❌
-
-// lastName = 'Ballen Castaneda'; //❌
-// console.log(lastName)
+lastName = 'Ballen Castaneda'; //❌
+console.log(lastName)
 
 // Minus operator
 const now = 2023;
@@ -94,3 +92,21 @@ console.log(ageAyana >= ageSebas)
 const isFullAge = ageSebas >= 18;
 
 console.log(now - 1999 > now - 2018)
+*/
+
+//Operator Precedence
+const now = 2023;
+const ageSebas = now - 1999;
+const ageAyana = now - 1998;
+
+//In Javascript, there's a well defined order of precedence of how the operators are executed
+console.log(now - 1991 > now - 2018);
+
+// As an example here, the additive operators like the substraction have a higher precedence compared with the assignment, thats why the result of is 10,10
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+//Another example here. In this case the result of the average would be wrong & different cause the multiplicative operator has a higher precendence compared with the assignment, but we can use the grouping one to get the correct result
+const averageAge = ageSebas + ageAyana / 2;
+console.log(ageSebas, ageAyana, averageAge);
